@@ -1,0 +1,59 @@
+/*----custom stylesheet here----*/
+
+body
+{
+    background-image: linear-gradient(
+        60deg,
+        rgba(255,165,150,0.5)5%,
+        rgba(0,228,255,0.35)
+    ),
+    url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-position:center;
+    background-attachment:fixed;
+    font-family:"Source Sans Pro", Helvetica, sans-serif;
+     
+}
+/*-------Main section block starts here-------*/
+#mainSection
+{
+   background: #fff;
+   width: 25%;
+   padding:40px;
+   margin:100px auto;
+   text-align:center ;/*---text or image are only for changing positions----*/
+   border-radius: 5px;
+}
+img
+{
+    border-radius: 100%;
+}
+ul
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+}
+/*-----Main Section Block ends here---*/
+h1
+{
+    color: #313f47;
+    font-weight: 300;
+    font-size: 27px;
+   /* text-transform: capitalize;*/
+   text-transform: uppercase;
+   letter-spacing: 5.5px;
+  /* text-shadow: 1px 4px 1px red ;*/
+   /*text-decoration: overline;*/
+   
+  
+}
